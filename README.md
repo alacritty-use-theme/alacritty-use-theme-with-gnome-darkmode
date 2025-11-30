@@ -6,10 +6,14 @@
 DockerFile builds docker image
 
 ## About
- this project is a docker container that will use the married-grass component
+this project is a docker container that will use the married-grass component
+https://github.com/christophermca/married-grass (feat: uses makefile to simplify maintaining project)
 
-https://github.com/christophermca/married-grass>>>>>> cc764f9 (feat: uses makefile to simplify maintaining project)
 ### Usage
 
+```
 make build
-make run
+make server
+make connect
+make stop
+```
