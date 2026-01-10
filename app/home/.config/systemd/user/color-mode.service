@@ -6,7 +6,7 @@ After=graphical-session.target
 [Service]
 Type=exec
 WorkingDirectory=%h
-ExecStart=%h/.local/alacritty/bin/toggle-mode-on-signal.sh
+ExecStart=/usr/bin/great-matcha/bin/toggle-mode-on-signal.sh
 
 [Install]
 WantedBy=default.target
